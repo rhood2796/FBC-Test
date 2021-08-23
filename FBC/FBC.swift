@@ -50,7 +50,7 @@ class FBC {
                         consoleIO.writeMessage("\n  = " + answerString)
                     case "/":
                         if operand2 == 0 {
-                            consoleIO.writeMessage("\n  Divide by zero error")
+                            consoleIO.writeMessage("\n  " + EquationErrors.kDivideByZeroError.rawValue)
                         } else {
                             let answer = operand1 / operand2
                             let answerString = parser.encodeNumber(answer)

@@ -13,6 +13,7 @@ enum EquationErrors: String, Codable {
     case kEquationParseError = "Error parsing equation"
     case kNumberParseError = "Error parsing number"
     case kNumberOverflowError = "Number overflow error"
+    case kDivideByZeroError = "Divide by zero error"
 }
 
 class FBCParse {
@@ -180,7 +181,7 @@ class FBCParse {
             return (.kNumberOverflowError, 0)
         }
         if denominator == 0 {
-            return (.kNumberParseError, 0)
+            return (.kDivideByZeroError, 0)
         }
         let fraction = numerator / denominator
         return (.kNoError, fraction)
