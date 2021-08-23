@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
+options: "432fd1eae84afd06ccc34de15fff0153"
+build_time: [1629740462, 875494000]
+inputs:
+  "/Users/rhood/projects/iOSX/CodingTests/OneLogin/FBC/FBC/Extensions/StringExtensions.swift": [1629694446, 585150094]
+  "/Users/rhood/projects/iOSX/CodingTests/OneLogin/FBC/FBC/ConsoleIO.swift": [1629697456, 169021202]
+  "/Users/rhood/projects/iOSX/CodingTests/OneLogin/FBC/FBC/main.swift": [1629697556, 801774559]
+  "/Users/rhood/projects/iOSX/CodingTests/OneLogin/FBC/FBC/FBC.swift": [1629738522, 510948731]
+  "/Users/rhood/projects/iOSX/CodingTests/OneLogin/FBC/FBC/FBCParse.swift": [1629738222, 110004112]

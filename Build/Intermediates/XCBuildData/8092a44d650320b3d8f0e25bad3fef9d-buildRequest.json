@@ -1,0 +1,50 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "9f763770c885160bfb5ba8561bfa020af985555a2bead83d7b7c78f6a0f785a0"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx11.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/rhood/projects/iOSX/CodingTests/OneLogin/FBC/Build/Intermediates",
+      "buildProductsPath" : "/Users/rhood/projects/iOSX/CodingTests/OneLogin/FBC/Build/Products",
+      "derivedDataPath" : "/Users/rhood/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/rhood/Library/Developer/Xcode/DerivedData/FBC-eqkpzeqpgdqzihhhutrfygvymsfa/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/rhood/Library/Developer/Xcode/DerivedData/FBC-eqkpzeqpgdqzihhhutrfygvymsfa/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/rhood/projects/iOSX/CodingTests/OneLogin/FBC/Build/Intermediates/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
