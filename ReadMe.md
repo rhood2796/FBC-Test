@@ -1,4 +1,5 @@
 Interview coding test
+
 8/23/2021
 
 Write a macOS CLI Tool to process equations input from the console
@@ -30,5 +31,6 @@ The CLI Tool is built with Xcode and the tool is copied to ${PROJECT_DIR}/bin at
 To run in Terminal:
 
 cd ${PROJECT_DIR}
+
 bin/FBC
 
